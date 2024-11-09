@@ -1,0 +1,187 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+#header{
+    background-color: rgb(244, 211, 233);
+    width: 100%;
+    height: 20%;
+    display: flex;
+   
+}
+#logo{
+    height: 100px;
+    width: 100px;
+    background-image: url("logo.png");
+    background-size: cover;
+}
+body{
+    background-color: rgb(241, 232, 241);
+}
+#register{
+    position: relative;
+    top:50px;
+    right: 70px;
+}
+#content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 500px;
+    /* border: 1px solid rgb(134, 130, 130); */
+}
+form{
+   
+    width: 40%;
+    height: 80%;
+    background-color: rgb(247, 245, 245);
+}
+.equal{
+    display: flex;
+    margin: 20px;
+}
+h2{
+    margin: 20px;
+    color: rgb(112, 9, 9);
+}
+input{
+    margin-left: 20px;
+    margin-bottom: 20px;
+    padding: 10px;
+    background-color: rgb(83, 81, 81);
+    color: white;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+p{
+    position: relative;
+    top: 10px;
+    font-size: 16px;
+}
+#btn{
+    float: right;
+    position: relative;
+    right: 100px;
+    width: 30%;
+}
+#frm{
+    margin-top: 60px;
+}
+#footer{
+    height: auto;
+    background-color: rgb(244, 211, 233) ;
+    padding-bottom: 20px;
+   
+    
+}
+#menubar ul{
+    list-style-type: none;
+    background-color:rgb(244, 211, 233) ;
+    color:black;
+    
+}
+#menubar{
+    margin-top: 20px;
+}
+ul li{
+    display: inline-block;
+    padding: 10px;
+    
+}
+ul li:hover{
+    background-color: white;
+    border: 1px solid black;
+    border-radius: 15px;
+}
+ul li a{
+    text-decoration: none;
+    color: black;
+}
+.dropdown{
+    display: none;
+}
+ul li:hover .dropdown{
+    display: block;
+    position: absolute;
+    margin-top: 10px;
+    
+}
+.dropdown ul li{
+    display: block;
+    
+}
+
+#pizza{
+   background-image: url("pizzaa.png");
+   background-size: cover;
+   height: 120px;
+   width: 200px;
+   margin: 40px;
+}
+#shwarma{
+    background-image: url("chef.jpg");
+    background-size: cover;
+    height: 250px;
+    width: 220px;
+    margin: 40px;
+    mix-blend-mode: multiply;
+  
+    
+}
+#signup{
+    background-color: rgb(141, 141, 223);
+    color: white;
+    border-radius: 20px;
+}
+#forget{
+    color: black;
+    position: relative;
+    left:190px;
+    bottom: 30px;
+}
+#forget a{
+    color:rgb(45, 45, 162);
+}
+#registered{
+    display: flex;
+    position: relative;
+    left: 30px;
+}
+.active{
+    background-color: rgb(147, 134, 134);
+    border: 1px solid black;
+    border-radius: 10px;
+}
+#key,#envelop{
+    position: relative;
+    top: 7px;
+    right: 20px;
+
+}
+#email:focus,#password:focus{
+    background-color: aliceblue;
+    color: black;
+}
+#copyright{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.inner{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.left{
+    position: relative;
+    left:50px;
+    margin-bottom: 10px;
+    margin-top: 20px;
+}
+.right{
+    position: relative;
+    right: 50px;
+}
+
+

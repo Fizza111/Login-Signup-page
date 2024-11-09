@@ -1,0 +1,175 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+
+#header{
+    background-color: rgb(244, 211, 233);
+    width: 100%;
+    height: 100px;
+    display: flex;
+    
+   
+}
+#logo{
+    height: 100px;
+    width: 100px;
+    background-image: url("logo.png");
+    background-size: cover;
+}
+body{
+    background-color: rgb(241, 232, 241);
+}
+#register{
+    position: relative;
+    top:50px;
+    right: 70px;
+}
+#menubar ul{
+    list-style-type: none;
+    background-color:rgb(244, 211, 233) ;
+    color:black;
+    
+}
+#menubar{
+    margin-top: 20px;
+}
+ul li{
+    display: inline-block;
+    padding: 10px;
+    
+}
+ul li:hover{
+    background-color: white;
+    border: 1px solid black;
+    border-radius: 15px;
+}
+ul li a{
+    text-decoration: none;
+    color: black;
+}
+.dropdown{
+    display: none;
+}
+ul li:hover .dropdown{
+    display: block;
+    position: absolute;
+    margin-top: 10px;
+    
+}
+.dropdown ul li{
+    display: block;
+    
+}
+.active{
+    background-color: rgb(147, 134, 134);
+    border: 1px solid black;
+    border-radius: 10px;
+}
+#content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    
+    
+    width: 100%;
+    height: 500px;
+}
+form{
+    background-color: rgb(247, 245, 245);
+    width: 50%;
+    height: 398px;
+    
+}
+form div{
+    display: flex;
+}
+form input{
+    margin-left: 35px;
+    border: 1px solid black;
+    border-radius: 2px;
+    margin-bottom: 15px;
+    padding: 5px;
+    width: 50%;
+}
+h2{
+    color: rgb(118, 7, 7);
+    margin-bottom: 30px;
+}
+#child{
+    height: 398px;
+    
+    
+}
+#btn{
+    background-color: rgb(156, 5, 60);
+    border-radius: 30px;
+}
+p{
+    margin-left: 10px;
+    background-color: rgb(247, 245, 245);
+}
+#sign{
+    position: relative;
+    top: 10px;
+    left: 90px;
+}
+#icon{
+    width: 40%;
+    height: 100px;
+    display: flex;
+    justify-content:space-between;
+}
+#facebook{
+    
+    height: 30px;
+    width: 30px;
+    border: 10px solid rgb(245, 239, 239);
+    border-radius: 40px;
+    position: relative;
+    left: 40px;
+}
+#gle{
+    
+    height: 30px;
+    width: 30px;
+    border: 10px solid rgb(245, 239, 239);
+    border-radius: 40px;
+}
+#sign-up{
+    border-bottom: 1px solid rgb(167, 161, 161);
+    width: 48%;
+    position: relative;
+    left: 35px;
+    bottom: 10px;
+}
+#footer{
+    height: auto;
+    background-color: rgb(244, 211, 233) ;
+    padding-bottom: 20px;
+   
+    
+}
+#copyright{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.inner{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.left{
+    position: relative;
+    left:50px;
+    margin-bottom: 10px;
+    margin-top: 20px;
+}
+.right{
+    position: relative;
+    right: 50px;
+}
